@@ -1,0 +1,19 @@
+/* Universal reset */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+//This defines 1 rem = 10px
+html {
+  font-size: 62.5%;
+}
+
+//Setting the box model properties
+body {
+  box-sizing: border-box;
+  transform-style: preserve-3d;
+}
